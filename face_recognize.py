@@ -1,4 +1,3 @@
-# facerec.py
 import cv2, sys, numpy, os
 size = 4
 haar_file = 'haarcascade_frontalface_default.xml'
