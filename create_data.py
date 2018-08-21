@@ -2,7 +2,7 @@
 import cv2, sys, numpy, os
 haar_file = 'haarcascade_frontalface_default.xml'
 datasets = 'datasets'  #All the faces data will be present this folder
-sub_data = 'vivek'     #These are sub data sets of folder, for my faces I've used my name you can change the label here
+sub_data = 'sikandar'     #These are sub data sets of folder, for my faces I've used my name
 
 path = os.path.join(datasets, sub_data)
 if not os.path.isdir(path):
