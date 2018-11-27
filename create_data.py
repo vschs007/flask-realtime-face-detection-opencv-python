@@ -7,7 +7,7 @@ sub_data = 'sikandar'     #These are sub data sets of folder, for my faces I've 
 path = os.path.join(datasets, sub_data)
 if not os.path.isdir(path):
     os.mkdir(path)
-(width, height) = (130, 100)    # defining the size of images 
+(width, height) = (130, 100)    # defining the size of image
 
 
 face_cascade = cv2.CascadeClassifier(haar_file)
