@@ -1,2 +1,2 @@
-opencv-python
+opencv-python-contrib
 Flask==0.11.1
