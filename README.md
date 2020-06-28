@@ -13,3 +13,7 @@ realtime face detection using python and opencv , webcam should be enabled to ge
 3.After the data has been trained, you can execute face_recognise.py to make it run
 
 4.For using it on a web based interface, run , python app.py and open your localhost
+
+
+#note:
+you can skip heroku part, only needed things are flask and the python scripts.
